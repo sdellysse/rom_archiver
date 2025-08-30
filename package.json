@@ -30,14 +30,5 @@
   "module": "src/__entry.ts",
   "name": "rom_archiver",
   "private": true,
-  "scripts": {
-    "check": "pnpm install && pnpm run style:check && pnpm run lint:check",
-    "dev": "pnpm install && tsx --watch src/__entry.ts",
-    "lint:check": "eslint ./**/*.{ts,tsx} --quiet",
-    "lint:fix": "eslint ./**/*.{ts,tsx} --fix",
-    "style:check": "prettier --check ./.devcontainer/*.json ./.devcontainer/*.yaml ./src/**/*.{ts,tsx}",
-    "style:fix": "prettier --write ./src/**/*.{ts,tsx}",
-    "test": "biome test --watch"
-  },
   "type": "module"
 }
