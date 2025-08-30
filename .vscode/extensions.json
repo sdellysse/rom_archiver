@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "fractalbrew.backticks",
+    "heybourn.headwind",
+    "bradlc.vscode-tailwindcss",
+    "stivo.tailwind-fold",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors"
+  ]
+}
