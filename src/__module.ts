@@ -27,7 +27,14 @@ export class GlobalModule implements NestModule {
 }
 
 @Module({
-  imports: [GlobalModule, HttpModule, ScannerModule],
+  imports: [
+    // Import the global module first, and only once in entire app
+    GlobalModule,
+
+    // Then the other modules
+    HttpModule,
+    ScannerModule,
+  ],
   controllers: [],
   providers: [],
 })
